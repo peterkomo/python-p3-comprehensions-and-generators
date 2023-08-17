@@ -9,4 +9,8 @@ def return_evens(num_list):
     pass
 
 def make_exclamation(sentence_list):
+    return [sentence + "!" for sentence in sentence_list]
+    result = make_exclamation(["Hello", "I'm doing great", "Python is fun"])
+    print(result)
+
     pass
